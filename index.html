@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>This Domain is for Sale</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(79, 70, 229, 0.25), transparent 35%),
+        radial-gradient(circle at bottom right, rgba(236, 72, 153, 0.22), transparent 35%),
+        #0f172a;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .domain-sale-wrapper {
+      width: 100%;
+      max-width: 920px;
+      text-align: center;
+      padding: 70px 30px;
+      border-radius: 32px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(18px);
+    }
+
+    h1 {
+      font-size: clamp(42px, 7vw, 82px);
+      line-height: 1;
+      letter-spacing: -3px;
+      margin-bottom: 22px;
+    }
+
+    h1 span {
+      background: linear-gradient(135deg, #60a5fa, #c084fc, #f472b6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      max-width: 650px;
+      margin: 0 auto 36px;
+      font-size: 18px;
+      line-height: 1.7;
+      color: #cbd5e1;
+    }
+
+    .btn-group {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 54px;
+      padding: 0 28px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 700;
+      transition: 0.3s ease;
+    }
+
+    .btn-primary {
+      background: #ffffff;
+      color: #0f172a;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 18px 40px rgba(255, 255, 255, 0.22);
+    }
+
+    .btn-secondary {
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.12);
+      transform: translateY(-3px);
+    }
+
+    .footer-note {
+      margin-top: 42px;
+      font-size: 14px;
+      color: #94a3b8;
+    }
+
+    @media (max-width: 576px) {
+      .domain-sale-wrapper {
+        padding: 50px 22px;
+        border-radius: 24px;
+      }
+
+      h1 {
+        letter-spacing: -2px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="domain-sale-wrapper">
+
+    <h1>This Domain is <span>For Sale</span></h1>
+
+    <p>
+      This domain is available for purchase. 
+      For pricing, negotiation, or serious business inquiries, please contact the owner directly.
+    </p>
+
+    <div class="btn-group">
+      <a 
+        class="btn btn-primary" 
+        href="mailto:hdwork849829@gmail.com?subject=Domain%20Purchase%20Inquiry&body=Hi%2C%20I%20am%20interested%20in%20buying%20this%20domain.%20Please%20share%20the%20details."
+      >
+        Make an Offer
+      </a>
+
+      <a class="btn btn-secondary" href="mailto:hdwork849829@gmail.com">
+        Contact Owner
+      </a>
+    </div>
+
+    <div class="footer-note">
+      Serious inquiries only · Secure domain transfer available
+    </div>
+  </main>
+</body>
+</html>
